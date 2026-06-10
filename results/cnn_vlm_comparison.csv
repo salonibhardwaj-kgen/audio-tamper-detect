@@ -1,0 +1,11 @@
+file,expected,verdict,correct,conf_genuine,conf_manipulated
+genuine_rasa_Hindi_Male_001.png,genuine,genuine,True,0.9604,0.0396
+genuine_rasa_Hindi_Male_002.png,genuine,genuine,True,0.9934,0.0066
+genuine_rasa_Hindi_Male_003.png,genuine,genuine,True,0.9934,0.0066
+genuine_rasa_Hindi_Male_004.png,genuine,genuine,True,0.9878,0.0122
+genuine_rasa_Hindi_Male_005.png,genuine,genuine,True,0.9908,0.0092
+manipulated_rasa_Hindi_Male_001_removal_end.png,manipulated,manipulated,True,0.0002,0.9998
+manipulated_rasa_Hindi_Male_001_removal_mid.png,manipulated,manipulated,True,0.0008,0.9992
+manipulated_rasa_Hindi_Male_001_removal_random.png,manipulated,manipulated,True,0.0004,0.9996
+manipulated_rasa_Hindi_Male_001_removal_start.png,manipulated,manipulated,True,0.0008,0.9992
+manipulated_rasa_Hindi_Male_002_removal_end.png,manipulated,manipulated,True,0.0031,0.9969

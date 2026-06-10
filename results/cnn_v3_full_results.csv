@@ -1,0 +1,28 @@
+label,dataset,language,manipulation,expected,got,type,confidence,correct
+Hindi genuine 001,Rasa,Hindi,none,GENUINE,GENUINE,—,0,YES
+Hindi genuine 002,Rasa,Hindi,none,GENUINE,GENUINE,—,0,YES
+Hindi genuine 005,Rasa,Hindi,none,GENUINE,GENUINE,—,0,YES
+Hindi NR removal start,Rasa,Hindi,NR_removal,SYNTHETIC,SYNTHETIC,REMOVAL,1.0,YES
+Hindi NR removal mid,Rasa,Hindi,NR_removal,SYNTHETIC,SYNTHETIC,REMOVAL,1.0,YES
+Hindi NR removal end,Rasa,Hindi,NR_removal,SYNTHETIC,SYNTHETIC,REMOVAL,1.0,YES
+Hindi audacity start,Rasa,Hindi,audacity_removal,SYNTHETIC,SYNTHETIC,REMOVAL,1.0,YES
+Hindi audacity mid,Rasa,Hindi,audacity_removal,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+Hindi audacity end,Rasa,Hindi,audacity_removal,SYNTHETIC,SYNTHETIC,REMOVAL,1.0,YES
+Hindi noise addition,Rasa,Hindi,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+Assamese genuine 001,Rasa,Assamese,none,GENUINE,GENUINE,—,0,YES
+Assamese genuine 002,Rasa,Assamese,none,GENUINE,GENUINE,—,0,YES
+Assamese genuine 003,Rasa,Assamese,none,GENUINE,GENUINE,—,0,YES
+Assamese NR removal mid,Rasa,Assamese,NR_removal,SYNTHETIC,SYNTHETIC,REMOVAL,0.801,YES
+Assamese crowd add mid,Rasa,Assamese,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+Bengali combined genuine,Rasa,Bengali,none,GENUINE,GENUINE,—,0,YES
+Bengali NR removal mid,Rasa,Bengali,NR_removal,SYNTHETIC,SYNTHETIC,REMOVAL,0.927,YES
+Bengali crowd add mid,Rasa,Bengali,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+FLEURS Hindi genuine,FLEURS,Hindi,none,GENUINE,SYNTHETIC,ADDITION,1.0,NO
+FLEURS Hindi NR removal,FLEURS,Hindi,NR_removal,SYNTHETIC,SYNTHETIC,ADDITION,0.996,YES
+FLEURS Hindi crowd add,FLEURS,Hindi,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+FLEURS Tamil genuine,FLEURS,Tamil,none,GENUINE,SYNTHETIC,ADDITION,0.996,NO
+FLEURS Tamil NR removal,FLEURS,Tamil,NR_removal,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+FLEURS Tamil crowd add,FLEURS,Tamil,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+FLEURS Bengali genuine,FLEURS,Bengali,none,GENUINE,SYNTHETIC,ADDITION,1.0,NO
+FLEURS Bengali NR removal,FLEURS,Bengali,NR_removal,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
+FLEURS Bengali crowd add,FLEURS,Bengali,noise_addition,SYNTHETIC,SYNTHETIC,ADDITION,1.0,YES
