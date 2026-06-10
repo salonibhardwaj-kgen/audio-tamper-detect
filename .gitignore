@@ -1,0 +1,112 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+pip-wheel-metadata/
+.installed.cfg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service_account.json
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.cursor/
+.cursorignore
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Datasets — large audio files (gigabytes) ─────────────────────────────────
+datasets/
+!datasets/README.md
+
+# ── Model checkpoints — use releases or HuggingFace Hub ──────────────────────
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.ckpt
+models/*.safetensors
+!models/README.md
+
+# ── Generated audio / spectrogram artifacts ──────────────────────────────────
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+datasets/**/*.png
+datasets/**/*.jpg
+
+# ── Generated reports / office documents ─────────────────────────────────────
+results/*.docx
+*.docx
+*.rtf
+PROCESS_MAP.docx
+doc.rtf
+
+# ── Temporary pipeline files ──────────────────────────────────────────────────
+datasets/_tmp*.wav
+datasets/_tmp*.png
+
+# ── Test / cache artefacts ────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Test audio fixtures (contain WAV files) ───────────────────────────────────
+test_audio/
+test_audio_noizeus/
+
+# ── Temporary spectrogram PNGs in root ────────────────────────────────────────
+test_spectrogram.png
+tmp_*.png
