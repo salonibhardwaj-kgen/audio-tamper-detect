@@ -121,7 +121,7 @@ audio-tamper-detect/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/audio-tamper-detect.git
+git clone https://github.com/salonibhardwaj-kgen/audio-tamper-detect.git
 cd audio-tamper-detect
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -153,7 +153,7 @@ cp .env.example .env
 # Download the production model (v3)
 mkdir -p models
 curl -L -o models/spectrogram_cnn_seg_v3.pt \
-  https://github.com/YOUR_USERNAME/audio-tamper-detect/releases/download/v1.0.0/spectrogram_cnn_seg_v3.pt
+  https://github.com/salonibhardwaj-kgen/audio-tamper-detect/releases/download/v1.0.0/spectrogram_cnn_seg_v3.pt
 ```
 
 ---
@@ -299,6 +299,6 @@ If you use this work in research, please cite:
 @misc{audio-tamper-detect-2025,
   title   = {Audio Tampering Detection for Indic Languages},
   year    = {2025},
-  url     = {https://github.com/YOUR_USERNAME/audio-tamper-detect}
+  url     = {https://github.com/salonibhardwaj-kgen/audio-tamper-detect}
 }
 ```

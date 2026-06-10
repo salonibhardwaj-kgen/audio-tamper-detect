@@ -10,7 +10,7 @@ The production model (`spectrogram_cnn_seg_v3.pt`) is attached to the [GitHub Re
 # Download with curl (replace URL with the latest release asset URL)
 mkdir -p models
 curl -L -o models/spectrogram_cnn_seg_v3.pt \
-  https://github.com/YOUR_USERNAME/audio-tamper-detect/releases/download/v1.0.0/spectrogram_cnn_seg_v3.pt
+  https://github.com/salonibhardwaj-kgen/audio-tamper-detect/releases/download/v1.0.0/spectrogram_cnn_seg_v3.pt
 ```
 
 ## Train from scratch
